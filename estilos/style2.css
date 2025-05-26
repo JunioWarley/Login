@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagens/login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+section#geral {
+    position: absolute;
+    background-color: #ec8c1e9d;
+    width: 80%;
+    height: 275px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #151340;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #141873;
+}
+div#links {
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+a {
+    color: #151340;
+    text-decoration: none;
+}
+a:hover {
+    color: #141873;
+    text-decoration: underline;
+}
+div.usuario {
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 40px;
+}
+input[type="text"], input[type="password"] {
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    margin-top: 10px;
+    align-content: center;
+}
