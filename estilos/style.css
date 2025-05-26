@@ -32,11 +32,55 @@ section#geral {
     position: absolute;
     background-color: #ec8c1e9d;
     width: 400px;
-    height: 200px;
+    height: 250px;
     border-radius: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #151340;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #141873;
+}
+div#links {
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+a {
+    color: #151340;
+    text-decoration: none;
+}
+a:hover {
+    color: #141873;
+    text-decoration: underline;
+}
+div.usuario {
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 40px;
+}
+input[type="text"], input[type="password"] {
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    margin-top: 10px;
+    align-content: center;
 }
